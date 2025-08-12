@@ -42,4 +42,11 @@ div .degrade{
 #border{
     border-bottom: 1px #e4e2eaca solid;
     border-right: 1px #e4e2eaca solid;
+} 
+ div a:hover{
+    text-decoration: underline;
+
+}
+div .degrade:hover{
+background: linear-gradient(90deg,#648469,#900505d0);
 }
