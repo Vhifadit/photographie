@@ -24,9 +24,11 @@ div a{
     color: #01032bc8;
     border-radius: 50px;
 }
-.color{
+ header nav .color{
     background-color: white;
-}body{
+
+}
+body{
     background-color:#1F2039 ;
 }
 p,ul li,h2{
@@ -59,6 +61,7 @@ header,footer{
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
+    background-color: white;
 }
 section{
     padding: 80px;
@@ -68,4 +71,31 @@ section{
 }
 #top{
     margin-top: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.space{
+    display: flex;
+    gap: 20px;
+}
+.align{
+    display: flex;
+    justify-content: space-between;
+}
+#espace1{
+    padding-bottom: 20px;
+}
+
+#espace2{
+    padding-bottom: 20px;
+}
+#alignvrai{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
 }
