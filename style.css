@@ -22,6 +22,7 @@ div a{
     font-size: 1em;
     font-family: Manrope;
     color: #01032bc8;
+    border-radius: 50px;
 }
 .color{
     background-color: white;
@@ -32,8 +33,13 @@ p,ul li,h2{
     color:#F9F8FF ;
     
 }
+
 div .degrade{
     background: linear-gradient(120deg,#8E86B5,#ACAEED);
     font-family: Manrope;
     color: white;
+}
+#border{
+    border-bottom: 1px #e4e2eaca solid;
+    border-right: 1px #e4e2eaca solid;
 }
