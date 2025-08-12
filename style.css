@@ -42,6 +42,7 @@ div .degrade{
 #border{
     border-bottom: 1px #e4e2eaca solid;
     border-right: 1px #e4e2eaca solid;
+    padding: 50px;
 } 
  div a:hover{
     text-decoration: underline;
@@ -49,4 +50,22 @@ div .degrade{
 }
 div .degrade:hover{
 background: linear-gradient(90deg,#648469,#900505d0);
+}
+*{
+    margin:0;
+}
+header,footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+section{
+    padding: 80px;
+}
+#topmarge{
+    margin-top: 20px;
+}
+#top{
+    margin-top: 20px;
 }
