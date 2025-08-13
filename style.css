@@ -192,4 +192,15 @@ footer{
 .grid-paysages:hover .overlay {
   display: flex; /* s’affiche au survol */
 }
+th,td{
+    border: 2px solid rgb(136, 200, 250);
+    padding: 50px;
+}
+table{
+    border-collapse: collapse;
+    color: #eef0faf0;
+}
+table caption{
+    margin: 30px;
+}
 
