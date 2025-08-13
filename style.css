@@ -45,6 +45,7 @@ div .degrade{
     border-bottom: 1px #e4e2eaca solid;
     border-right: 1px #e4e2eaca solid;
     padding: 50px;
+    width: 500px;
 } 
  div a:hover{
     text-decoration: underline;
@@ -93,7 +94,15 @@ nav{
 }
 #alignvrai{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    background-color: white;
+}
+.row{
+    display: flex;
     justify-content: center;
+    gap: 30px;
 }
 footer{
     display: flex;
@@ -119,5 +128,68 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  display: inline-block;
 
 }
+.back{
+    background-color: white;
+}
+.reduire{
+    height: 200px;
+    width: 200px;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.photo1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.align1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.margin{
+    margin: 30px;
+}
+.foot{
+    display: flex;
+    gap: 20px;
+}
+.container-id{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.portfolio-section-photos{
+    background-color: white;
+}
+.ecriture{
+    color: #ACAEED;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* fond noir à 70% */
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: none; /* caché par défaut */
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat;
+}
+
+.grid-paysages:hover .overlay {
+  display: flex; /* s’affiche au survol */
+}
+
